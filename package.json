@@ -1,0 +1,23 @@
+{
+	"name": "agile-poker-slack",
+	"version": "1.0.0",
+	"displayName": "Agile Poker bot for Slack",
+	"description": "",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "concurrently \"ngrok http --domain=oddly-actual-hippo.ngrok-free.app 3000\" \"nodemon app.js\""
+	},
+	"keywords": ["slack", "bot"],
+	"author": "Dmitrii Bludov",
+	"license": "ISC",
+	"dependencies": {
+		"@slack/bolt": "^3.18.0",
+		"dotenv": "^16.4.5",
+		"sqlite3": "^5.1.7"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.2"
+	}
+}
