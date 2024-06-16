@@ -276,7 +276,7 @@ const pokerSession = (sessionTopic, participants) => {
 			type: "header",
 			text: {
 				type: "plain_text",
-				text: `Results of voting for "${sessionTopic}":`,
+				text: `Estimation Results for "${sessionTopic}":`,
 				emoji: true,
 			},
 		},
